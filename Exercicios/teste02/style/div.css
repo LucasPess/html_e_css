@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+.divv{
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    height: 300px;
+    width: 700px;
+    border-radius: 20px;
+   
+}
+a{
+    color: white;
+}
+div{
+    text-align: center;
+}
+.diiv{
+    color: white;
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 700px;
+    border-radius: 20px; 
+}
+
+li{
+    text-decoration: none;
+}
