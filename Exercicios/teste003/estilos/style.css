@@ -27,6 +27,20 @@ nav{
 nav > img{  
     width: 10vw;
     height: 15vh;
+    border-radius: 200px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 0, 200);
+    font-weight: bolder;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: pink;
+    color: rgb(179, 0, 149);
+    border-radius: 100px;
 }
 
 ul{
@@ -36,6 +50,7 @@ ul{
 }
 
 section{
+    background-color: white;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -53,6 +68,8 @@ section#menu p{
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.082);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.479);
+    text-align: center;
+    border-radius: 20px;
 }
 
 section#image {
@@ -62,4 +79,26 @@ section#image {
     background-position: right center;
     background-attachment: fixed;
     min-height: 80vh;
+}
+#video{
+    background-color: pink;
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.4%;
+    border-radius: 30px;
+
+    position: relative;
+}
+
+#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#sobre{
+    text-align: center;
 }
