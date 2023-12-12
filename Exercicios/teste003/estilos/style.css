@@ -24,20 +24,20 @@ nav{
     background-color: white;
 }
 
-nav > img{  
+nav > a > img{  
     width: 10vw;
     height: 15vh;
     border-radius: 200px;
 }
 
-nav a{
+.nava{
     text-decoration: none;
     color: rgb(255, 0, 200);
     font-weight: bolder;
     padding: 10px;
 }
 
-nav a:hover{
+.nava:hover{
     background-color: pink;
     color: rgb(179, 0, 149);
     border-radius: 100px;
